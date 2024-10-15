@@ -55,7 +55,7 @@
 
 
 %==============================
-% Abstract
+% Abstract for "Research and Applications" and systematic review submissions
 \newcommand{\abstractSection}[6]{%
     {\fontspec{Arial}
     \begin{spacing}{1.5}
@@ -70,6 +70,21 @@
     \noindent\textbf{\textsf{Key words:}} #6
     }
 }
+
+% Abstract for "concise tutorials on topics of broad interest" submissions:
+\newcomand{\tutorialAbstractSection}[4]{%
+    {\fontspec{Arial}
+    \begin{spacing}{1.5}
+        \noindent\textbf{ABSTRACT}
+    \end{spacing}
+    \noindent\textbf{Objective:} #1\\
+    \textbf{Target Audience:} #2\\
+    \textbf{Scope:} #3
+    \\\\
+    \noindent\textbf{\textsf{Key words:}} #4
+    }
+}
+
 %==============================
 
 
